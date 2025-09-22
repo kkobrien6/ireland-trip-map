@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e0346be9db013c1d6c9bc659ac52a31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8e0346be9db013c1d6c9bc659ac52a31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8e0346be9db013c1d6c9bc659ac52a31 = L.map(
+                "map_8e0346be9db013c1d6c9bc659ac52a31",
+                {
+                    center: [53.3, -8.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d35443f94bae85f49ef6eed454e3b693 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var marker_b913ad311355f755fd9687ae797baa8d = L.marker(
+                [53.3331, -6.2489],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_1a27943953838e9213e543551b3093bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d6f2d0667b688d09f53ee37e59e5ff = $(`<div id="html_b4d6f2d0667b688d09f53ee37e59e5ff" style="width: 100.0%; height: 100.0%;">Dublin (Arrival/Departure)</div>`)[0];
+            popup_1a27943953838e9213e543551b3093bd.setContent(html_b4d6f2d0667b688d09f53ee37e59e5ff);
+        
+
+        marker_b913ad311355f755fd9687ae797baa8d.bindPopup(popup_1a27943953838e9213e543551b3093bd)
+        ;
+
+        
+    
+    
+            marker_b913ad311355f755fd9687ae797baa8d.bindTooltip(
+                `<div>
+                     Dublin (Arrival/Departure)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f7114db269f02f72d026b022b1b251e = L.marker(
+                [53.344, -6.267],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_44f7fd5e7441fe64edd100344571125d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d1454befb313cd63465f9f3630b654 = $(`<div id="html_a8d1454befb313cd63465f9f3630b654" style="width: 100.0%; height: 100.0%;">Trinity College</div>`)[0];
+            popup_44f7fd5e7441fe64edd100344571125d.setContent(html_a8d1454befb313cd63465f9f3630b654);
+        
+
+        marker_0f7114db269f02f72d026b022b1b251e.bindPopup(popup_44f7fd5e7441fe64edd100344571125d)
+        ;
+
+        
+    
+    
+            marker_0f7114db269f02f72d026b022b1b251e.bindTooltip(
+                `<div>
+                     Trinity College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_768e6699bc11a6a789254055f9ba4849 = L.marker(
+                [53.339, -6.271],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_9f8c565e9df09fd2f39906d4149f0e38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d99243f8fc0fdb898f159dcfcd6d614 = $(`<div id="html_3d99243f8fc0fdb898f159dcfcd6d614" style="width: 100.0%; height: 100.0%;">St. Patrick’s Cathedral</div>`)[0];
+            popup_9f8c565e9df09fd2f39906d4149f0e38.setContent(html_3d99243f8fc0fdb898f159dcfcd6d614);
+        
+
+        marker_768e6699bc11a6a789254055f9ba4849.bindPopup(popup_9f8c565e9df09fd2f39906d4149f0e38)
+        ;
+
+        
+    
+    
+            marker_768e6699bc11a6a789254055f9ba4849.bindTooltip(
+                `<div>
+                     St. Patrick’s Cathedral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_953f24d9bd0c29a9bd789cf485bacff2 = L.marker(
+                [53.3419, -6.286],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_fa8b5cdc4235c430d7dd35505ce86112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0da9f5fab7bf5b0f1fd9b3e560d67a7d = $(`<div id="html_0da9f5fab7bf5b0f1fd9b3e560d67a7d" style="width: 100.0%; height: 100.0%;">Guinness Storehouse</div>`)[0];
+            popup_fa8b5cdc4235c430d7dd35505ce86112.setContent(html_0da9f5fab7bf5b0f1fd9b3e560d67a7d);
+        
+
+        marker_953f24d9bd0c29a9bd789cf485bacff2.bindPopup(popup_fa8b5cdc4235c430d7dd35505ce86112)
+        ;
+
+        
+    
+    
+            marker_953f24d9bd0c29a9bd789cf485bacff2.bindTooltip(
+                `<div>
+                     Guinness Storehouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_696cfc6599626f9305b0de07153dfc78 = L.marker(
+                [52.52, -7.89],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_59b629ca1658f661c6a2b6200d3aead6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e90473f3dd05b54e03ad8b0c97409872 = $(`<div id="html_e90473f3dd05b54e03ad8b0c97409872" style="width: 100.0%; height: 100.0%;">Rock of Cashel</div>`)[0];
+            popup_59b629ca1658f661c6a2b6200d3aead6.setContent(html_e90473f3dd05b54e03ad8b0c97409872);
+        
+
+        marker_696cfc6599626f9305b0de07153dfc78.bindPopup(popup_59b629ca1658f661c6a2b6200d3aead6)
+        ;
+
+        
+    
+    
+            marker_696cfc6599626f9305b0de07153dfc78.bindTooltip(
+                `<div>
+                     Rock of Cashel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_093ae15b9c3f5cbd71b7b9c9d7464ff7 = L.marker(
+                [51.933, -8.566],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_c34300384d58fddb8eb698b3ceeb84a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaa5a8c0e158d36f10ce782d9306c190 = $(`<div id="html_eaa5a8c0e158d36f10ce782d9306c190" style="width: 100.0%; height: 100.0%;">Blarney Castle</div>`)[0];
+            popup_c34300384d58fddb8eb698b3ceeb84a1.setContent(html_eaa5a8c0e158d36f10ce782d9306c190);
+        
+
+        marker_093ae15b9c3f5cbd71b7b9c9d7464ff7.bindPopup(popup_c34300384d58fddb8eb698b3ceeb84a1)
+        ;
+
+        
+    
+    
+            marker_093ae15b9c3f5cbd71b7b9c9d7464ff7.bindTooltip(
+                `<div>
+                     Blarney Castle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f1a74f003eaea609375da4cf2fdb898 = L.marker(
+                [51.85, -8.3],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_b07bd7a2f820d61c62df39d2c83dad1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9714bfd329b31624c372645e223be50e = $(`<div id="html_9714bfd329b31624c372645e223be50e" style="width: 100.0%; height: 100.0%;">Cobh</div>`)[0];
+            popup_b07bd7a2f820d61c62df39d2c83dad1c.setContent(html_9714bfd329b31624c372645e223be50e);
+        
+
+        marker_9f1a74f003eaea609375da4cf2fdb898.bindPopup(popup_b07bd7a2f820d61c62df39d2c83dad1c)
+        ;
+
+        
+    
+    
+            marker_9f1a74f003eaea609375da4cf2fdb898.bindTooltip(
+                `<div>
+                     Cobh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa15c87a3085cc03055c303df3d52bf = L.marker(
+                [51.707, -8.53],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_a1cc1e01547ed41d278d6ef5edc9b17a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6f0c4949c8560d4d90e38ec6beb23cd = $(`<div id="html_f6f0c4949c8560d4d90e38ec6beb23cd" style="width: 100.0%; height: 100.0%;">Kinsale</div>`)[0];
+            popup_a1cc1e01547ed41d278d6ef5edc9b17a.setContent(html_f6f0c4949c8560d4d90e38ec6beb23cd);
+        
+
+        marker_cfa15c87a3085cc03055c303df3d52bf.bindPopup(popup_a1cc1e01547ed41d278d6ef5edc9b17a)
+        ;
+
+        
+    
+    
+            marker_cfa15c87a3085cc03055c303df3d52bf.bindTooltip(
+                `<div>
+                     Kinsale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e6078f35e8b29601742194c6420b51b = L.marker(
+                [51.698, -8.499],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_6bf4de0e53a427440ad0ec935023f61c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68cf10c903e448ba904640674d4fe689 = $(`<div id="html_68cf10c903e448ba904640674d4fe689" style="width: 100.0%; height: 100.0%;">Charles Fort (Kinsale)</div>`)[0];
+            popup_6bf4de0e53a427440ad0ec935023f61c.setContent(html_68cf10c903e448ba904640674d4fe689);
+        
+
+        marker_9e6078f35e8b29601742194c6420b51b.bindPopup(popup_6bf4de0e53a427440ad0ec935023f61c)
+        ;
+
+        
+    
+    
+            marker_9e6078f35e8b29601742194c6420b51b.bindTooltip(
+                `<div>
+                     Charles Fort (Kinsale)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d14b25091742df32f2810c659f3eb667 = L.marker(
+                [51.62, -8.89],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_c22d8e2734067d1e3cc27ce52391e29d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07c9ab08951bf67a62580cd779794447 = $(`<div id="html_07c9ab08951bf67a62580cd779794447" style="width: 100.0%; height: 100.0%;">Clonakilty</div>`)[0];
+            popup_c22d8e2734067d1e3cc27ce52391e29d.setContent(html_07c9ab08951bf67a62580cd779794447);
+        
+
+        marker_d14b25091742df32f2810c659f3eb667.bindPopup(popup_c22d8e2734067d1e3cc27ce52391e29d)
+        ;
+
+        
+    
+    
+            marker_d14b25091742df32f2810c659f3eb667.bindTooltip(
+                `<div>
+                     Clonakilty
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_861aaffc856e8993b502350470d2bdb7 = L.marker(
+                [51.55, -9.07],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_822ab4cedcb314b62b832a10e9d0c28c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e10f30596a0454dd8f29b61f7135b7f3 = $(`<div id="html_e10f30596a0454dd8f29b61f7135b7f3" style="width: 100.0%; height: 100.0%;">Drombeg Stone Circle</div>`)[0];
+            popup_822ab4cedcb314b62b832a10e9d0c28c.setContent(html_e10f30596a0454dd8f29b61f7135b7f3);
+        
+
+        marker_861aaffc856e8993b502350470d2bdb7.bindPopup(popup_822ab4cedcb314b62b832a10e9d0c28c)
+        ;
+
+        
+    
+    
+            marker_861aaffc856e8993b502350470d2bdb7.bindTooltip(
+                `<div>
+                     Drombeg Stone Circle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76755a3be5688c660a77e84c06c729bb = L.marker(
+                [51.57, -9.1],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_ed2b60cfcbf53a1867bedefc76f25a47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97e18455822c5feb2a7ecb36c5d7d48e = $(`<div id="html_97e18455822c5feb2a7ecb36c5d7d48e" style="width: 100.0%; height: 100.0%;">Glandore</div>`)[0];
+            popup_ed2b60cfcbf53a1867bedefc76f25a47.setContent(html_97e18455822c5feb2a7ecb36c5d7d48e);
+        
+
+        marker_76755a3be5688c660a77e84c06c729bb.bindPopup(popup_ed2b60cfcbf53a1867bedefc76f25a47)
+        ;
+
+        
+    
+    
+            marker_76755a3be5688c660a77e84c06c729bb.bindTooltip(
+                `<div>
+                     Glandore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_485344e0482ea36522dc4057e98334d5 = L.marker(
+                [51.56, -9.12],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_1c163d03c5c569e34a82cf6bf9cac342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6e76d2182d9377a975e8b29ee5a35de = $(`<div id="html_f6e76d2182d9377a975e8b29ee5a35de" style="width: 100.0%; height: 100.0%;">Union Hall</div>`)[0];
+            popup_1c163d03c5c569e34a82cf6bf9cac342.setContent(html_f6e76d2182d9377a975e8b29ee5a35de);
+        
+
+        marker_485344e0482ea36522dc4057e98334d5.bindPopup(popup_1c163d03c5c569e34a82cf6bf9cac342)
+        ;
+
+        
+    
+    
+            marker_485344e0482ea36522dc4057e98334d5.bindTooltip(
+                `<div>
+                     Union Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29e31267f2c2f27773e4e6a387a8cc2e = L.marker(
+                [51.88, -9.58],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_2d1249699275ff2bdd1e6151ca2b51e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b0b85c5193146f3de6ec693eca70d0a = $(`<div id="html_5b0b85c5193146f3de6ec693eca70d0a" style="width: 100.0%; height: 100.0%;">Kenmare</div>`)[0];
+            popup_2d1249699275ff2bdd1e6151ca2b51e3.setContent(html_5b0b85c5193146f3de6ec693eca70d0a);
+        
+
+        marker_29e31267f2c2f27773e4e6a387a8cc2e.bindPopup(popup_2d1249699275ff2bdd1e6151ca2b51e3)
+        ;
+
+        
+    
+    
+            marker_29e31267f2c2f27773e4e6a387a8cc2e.bindTooltip(
+                `<div>
+                     Kenmare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04898d7915274c88863a284396c59a22 = L.marker(
+                [51.99, -9.61],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_38f979689cad45e8f64b08412c7c624a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ce03a4425ae250c859077743f4dc6e1 = $(`<div id="html_6ce03a4425ae250c859077743f4dc6e1" style="width: 100.0%; height: 100.0%;">Ladies View</div>`)[0];
+            popup_38f979689cad45e8f64b08412c7c624a.setContent(html_6ce03a4425ae250c859077743f4dc6e1);
+        
+
+        marker_04898d7915274c88863a284396c59a22.bindPopup(popup_38f979689cad45e8f64b08412c7c624a)
+        ;
+
+        
+    
+    
+            marker_04898d7915274c88863a284396c59a22.bindTooltip(
+                `<div>
+                     Ladies View
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fea48858093168a25b679229d91dbc6e = L.marker(
+                [52.05, -9.51],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_905c28390f18e179bc3bdecf956794e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b7731479a62c159da78a52cceee948 = $(`<div id="html_79b7731479a62c159da78a52cceee948" style="width: 100.0%; height: 100.0%;">Killarney</div>`)[0];
+            popup_905c28390f18e179bc3bdecf956794e8.setContent(html_79b7731479a62c159da78a52cceee948);
+        
+
+        marker_fea48858093168a25b679229d91dbc6e.bindPopup(popup_905c28390f18e179bc3bdecf956794e8)
+        ;
+
+        
+    
+    
+            marker_fea48858093168a25b679229d91dbc6e.bindTooltip(
+                `<div>
+                     Killarney
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c12c07a29776f15481ccd67c2dee92e = L.marker(
+                [52.141, -10.267],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_7b6b58a12d76a58c72948e68f3dc9cdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98c65c6ce6203b8f82b72156780b37be = $(`<div id="html_98c65c6ce6203b8f82b72156780b37be" style="width: 100.0%; height: 100.0%;">Dingle Town</div>`)[0];
+            popup_7b6b58a12d76a58c72948e68f3dc9cdc.setContent(html_98c65c6ce6203b8f82b72156780b37be);
+        
+
+        marker_8c12c07a29776f15481ccd67c2dee92e.bindPopup(popup_7b6b58a12d76a58c72948e68f3dc9cdc)
+        ;
+
+        
+    
+    
+            marker_8c12c07a29776f15481ccd67c2dee92e.bindTooltip(
+                `<div>
+                     Dingle Town
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a96731e20d303b1aded1d0c67068415d = L.marker(
+                [52.103, -10.484],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_86279980373d28ad0baf5879d5bbb8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdb90ab9cf2ab8cd438bc766399971c3 = $(`<div id="html_cdb90ab9cf2ab8cd438bc766399971c3" style="width: 100.0%; height: 100.0%;">Slea Head</div>`)[0];
+            popup_86279980373d28ad0baf5879d5bbb8a5.setContent(html_cdb90ab9cf2ab8cd438bc766399971c3);
+        
+
+        marker_a96731e20d303b1aded1d0c67068415d.bindPopup(popup_86279980373d28ad0baf5879d5bbb8a5)
+        ;
+
+        
+    
+    
+            marker_a96731e20d303b1aded1d0c67068415d.bindTooltip(
+                `<div>
+                     Slea Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa3a834c6d6854dda6ce2b92e31160d6 = L.marker(
+                [52.1035, -10.482],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_07169e714917103ae2e061d75192a6e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_967f3601576b697b726a1cac49da2131 = $(`<div id="html_967f3601576b697b726a1cac49da2131" style="width: 100.0%; height: 100.0%;">Blasket Centre (Dingle)</div>`)[0];
+            popup_07169e714917103ae2e061d75192a6e5.setContent(html_967f3601576b697b726a1cac49da2131);
+        
+
+        marker_aa3a834c6d6854dda6ce2b92e31160d6.bindPopup(popup_07169e714917103ae2e061d75192a6e5)
+        ;
+
+        
+    
+    
+            marker_aa3a834c6d6854dda6ce2b92e31160d6.bindTooltip(
+                `<div>
+                     Blasket Centre (Dingle)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f767c65a181a3d8def74b0f8ab8fe50 = L.marker(
+                [52.215, -10.225],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_24620522b4ec677ba8f5354cc44e1dc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eb4a6e6be6b601279e50d2d3363c2ee = $(`<div id="html_6eb4a6e6be6b601279e50d2d3363c2ee" style="width: 100.0%; height: 100.0%;">Conor Pass</div>`)[0];
+            popup_24620522b4ec677ba8f5354cc44e1dc6.setContent(html_6eb4a6e6be6b601279e50d2d3363c2ee);
+        
+
+        marker_5f767c65a181a3d8def74b0f8ab8fe50.bindPopup(popup_24620522b4ec677ba8f5354cc44e1dc6)
+        ;
+
+        
+    
+    
+            marker_5f767c65a181a3d8def74b0f8ab8fe50.bindTooltip(
+                `<div>
+                     Conor Pass
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c97a7f0bf6e010653c45c9cfe446b112 = L.marker(
+                [53.02, -9.37],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_68507f4220314a57d55d7aaf2b0cac65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6120f100a68fd8cf2d8db577dd16b29a = $(`<div id="html_6120f100a68fd8cf2d8db577dd16b29a" style="width: 100.0%; height: 100.0%;">Doolin</div>`)[0];
+            popup_68507f4220314a57d55d7aaf2b0cac65.setContent(html_6120f100a68fd8cf2d8db577dd16b29a);
+        
+
+        marker_c97a7f0bf6e010653c45c9cfe446b112.bindPopup(popup_68507f4220314a57d55d7aaf2b0cac65)
+        ;
+
+        
+    
+    
+            marker_c97a7f0bf6e010653c45c9cfe446b112.bindTooltip(
+                `<div>
+                     Doolin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3019226c1c92c3b6fb1b3bdac4bd03ae = L.marker(
+                [52.9715, -9.4309],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_129f636973f3158c684c12076b774066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4239f2b08b11f4d4527bc2b51e084935 = $(`<div id="html_4239f2b08b11f4d4527bc2b51e084935" style="width: 100.0%; height: 100.0%;">Cliffs of Moher</div>`)[0];
+            popup_129f636973f3158c684c12076b774066.setContent(html_4239f2b08b11f4d4527bc2b51e084935);
+        
+
+        marker_3019226c1c92c3b6fb1b3bdac4bd03ae.bindPopup(popup_129f636973f3158c684c12076b774066)
+        ;
+
+        
+    
+    
+            marker_3019226c1c92c3b6fb1b3bdac4bd03ae.bindTooltip(
+                `<div>
+                     Cliffs of Moher
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e52fd147f875bf83e691f758f0fd4502 = L.marker(
+                [53.027, -9.29],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_192e5a45e92ed4854fab7a8562002977 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6a7ba66a51687ffba029425e4d7334 = $(`<div id="html_cc6a7ba66a51687ffba029425e4d7334" style="width: 100.0%; height: 100.0%;">The Burren Centre</div>`)[0];
+            popup_192e5a45e92ed4854fab7a8562002977.setContent(html_cc6a7ba66a51687ffba029425e4d7334);
+        
+
+        marker_e52fd147f875bf83e691f758f0fd4502.bindPopup(popup_192e5a45e92ed4854fab7a8562002977)
+        ;
+
+        
+    
+    
+            marker_e52fd147f875bf83e691f758f0fd4502.bindTooltip(
+                `<div>
+                     The Burren Centre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60a48c0bf4179ac2f6198f6596a4ba6c = L.marker(
+                [53.052, -9.153],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_79289904033e3563a66765f9e8f9fbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76f337f2592b505af6807595b6dd61b5 = $(`<div id="html_76f337f2592b505af6807595b6dd61b5" style="width: 100.0%; height: 100.0%;">Poulnabrone Dolmen</div>`)[0];
+            popup_79289904033e3563a66765f9e8f9fbf1.setContent(html_76f337f2592b505af6807595b6dd61b5);
+        
+
+        marker_60a48c0bf4179ac2f6198f6596a4ba6c.bindPopup(popup_79289904033e3563a66765f9e8f9fbf1)
+        ;
+
+        
+    
+    
+            marker_60a48c0bf4179ac2f6198f6596a4ba6c.bindTooltip(
+                `<div>
+                     Poulnabrone Dolmen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecbdc661f93bf129a108f1e14ba7eaac = L.marker(
+                [53.2707, -9.0568],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+        var popup_9211fe9f6d9c05bf6dc6d28d3d5f6f44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57818489502f4fd0a6181d7ce0f8664e = $(`<div id="html_57818489502f4fd0a6181d7ce0f8664e" style="width: 100.0%; height: 100.0%;">Galway</div>`)[0];
+            popup_9211fe9f6d9c05bf6dc6d28d3d5f6f44.setContent(html_57818489502f4fd0a6181d7ce0f8664e);
+        
+
+        marker_ecbdc661f93bf129a108f1e14ba7eaac.bindPopup(popup_9211fe9f6d9c05bf6dc6d28d3d5f6f44)
+        ;
+
+        
+    
+    
+            marker_ecbdc661f93bf129a108f1e14ba7eaac.bindTooltip(
+                `<div>
+                     Galway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0edd3da4206c8c85ec33b4accd41299f = L.polyline(
+                [[53.3331, -6.2489], [53.344, -6.267], [53.339, -6.271], [53.3419, -6.286]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_0edd3da4206c8c85ec33b4accd41299f.bindTooltip(
+                `<div>
+                     Day 1 — Dublin City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7586fb89b93ad668e798ad0374cbcf07 = L.marker(
+                [53.339, -6.271],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_b94735aa289bb32dae41d841355c1abf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:blue; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 1 \u2014 Dublin City\u003c/b\u003e\u003c/div\u003e"});
+            marker_7586fb89b93ad668e798ad0374cbcf07.setIcon(div_icon_b94735aa289bb32dae41d841355c1abf);
+        
+    
+            var poly_line_6f606100238ef75c52dfd414204e8f19 = L.polyline(
+                [[53.3331, -6.2489], [52.52, -7.89], [51.933, -8.566], [51.85, -8.3], [51.707, -8.53]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_6f606100238ef75c52dfd414204e8f19.bindTooltip(
+                `<div>
+                     Day 2 — Castles & Cobh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41e21871c4eeec7cfc3cefaae78e2119 = L.marker(
+                [51.933, -8.566],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_1bf90ce8c5e0e66d7c560d12a39488d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:green; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 2 \u2014 Castles \u0026 Cobh\u003c/b\u003e\u003c/div\u003e"});
+            marker_41e21871c4eeec7cfc3cefaae78e2119.setIcon(div_icon_1bf90ce8c5e0e66d7c560d12a39488d4);
+        
+    
+            var poly_line_38a4dbb3a67c5c4fe420779230954afc = L.polyline(
+                [[51.707, -8.53], [51.698, -8.499], [51.62, -8.89], [51.55, -9.07], [51.57, -9.1], [51.56, -9.12], [51.88, -9.58], [51.99, -9.61], [52.05, -9.51]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_38a4dbb3a67c5c4fe420779230954afc.bindTooltip(
+                `<div>
+                     Day 3 — West Cork & Ring of Kerry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e20932c88dd710ecd86bfa833ce883e7 = L.marker(
+                [51.57, -9.1],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_a3e36942de5d2f0ba0824555c0126ad9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:red; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 3 \u2014 West Cork \u0026 Ring of Kerry\u003c/b\u003e\u003c/div\u003e"});
+            marker_e20932c88dd710ecd86bfa833ce883e7.setIcon(div_icon_a3e36942de5d2f0ba0824555c0126ad9);
+        
+    
+            var poly_line_75b4e17fb8f17557eba6fe9a2df9dbdc = L.polyline(
+                [[52.05, -9.51], [52.141, -10.267], [52.103, -10.484], [52.1035, -10.482], [52.215, -10.225], [52.05, -9.51]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_75b4e17fb8f17557eba6fe9a2df9dbdc.bindTooltip(
+                `<div>
+                     Day 4 — Dingle Peninsula
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e886982ff36e70c29189fba52193953 = L.marker(
+                [52.1035, -10.482],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_abf561b85164a8f168fe6efdbba8a7d8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:purple; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 4 \u2014 Dingle Peninsula\u003c/b\u003e\u003c/div\u003e"});
+            marker_8e886982ff36e70c29189fba52193953.setIcon(div_icon_abf561b85164a8f168fe6efdbba8a7d8);
+        
+    
+            var poly_line_421065229e2831b3a7c4ba77732cc4be = L.polyline(
+                [[52.05, -9.51], [53.02, -9.37]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_421065229e2831b3a7c4ba77732cc4be.bindTooltip(
+                `<div>
+                     Day 5 — Low-Key Doolin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75b4439e865bd9edc22fa981c6434564 = L.marker(
+                [53.02, -9.37],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_36aa28e36c574acc262b2e3f6ae95fe9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:orange; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 5 \u2014 Low-Key Doolin\u003c/b\u003e\u003c/div\u003e"});
+            marker_75b4439e865bd9edc22fa981c6434564.setIcon(div_icon_36aa28e36c574acc262b2e3f6ae95fe9);
+        
+    
+            var poly_line_0a52595de5c0e50e0e078195632d789b = L.polyline(
+                [[53.02, -9.37], [52.9715, -9.4309], [53.027, -9.29], [53.052, -9.153], [53.2707, -9.0568]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_0a52595de5c0e50e0e078195632d789b.bindTooltip(
+                `<div>
+                     Day 6 — Cliffs of Moher & Burren
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_863895299f1a90ec56358999a4769598 = L.marker(
+                [53.027, -9.29],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_21314d17f377279a87a0c44e7439c174 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:darkblue; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 6 \u2014 Cliffs of Moher \u0026 Burren\u003c/b\u003e\u003c/div\u003e"});
+            marker_863895299f1a90ec56358999a4769598.setIcon(div_icon_21314d17f377279a87a0c44e7439c174);
+        
+    
+            var poly_line_2f8f0c7a7fb3ef3bd6d22b4a6a2fa656 = L.polyline(
+                [[53.2707, -9.0568], [53.3331, -6.2489]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            poly_line_2f8f0c7a7fb3ef3bd6d22b4a6a2fa656.bindTooltip(
+                `<div>
+                     Day 7 — Return to Dublin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df73dc47ed2acce56a45505fc82584c4 = L.marker(
+                [53.3331, -6.2489],
+                {}
+            ).addTo(map_8e0346be9db013c1d6c9bc659ac52a31);
+        
+    
+            var div_icon_a16c2a97d9371df8838e1392153c4b4a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size:12px; color:darkred; background: rgba(255,255,255,0.8); padding:2px 4px; border-radius:3px;\"\u003e\u003cb\u003eDay 7 \u2014 Return to Dublin\u003c/b\u003e\u003c/div\u003e"});
+            marker_df73dc47ed2acce56a45505fc82584c4.setIcon(div_icon_a16c2a97d9371df8838e1392153c4b4a);
+        
+</script>
+</html>
